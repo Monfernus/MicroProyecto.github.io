@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GoBingo</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="crearCarton.js"></script>
+</head>
+<body>
+    <header> 
+        <div class="container">
+            <p class="logo">GoBingo</p>
+            <nav>
+                <a href="a">Tabla de Victorias</a>
+            </nav>
+        </div>    
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h1>¡Bienvenidos a GoBingo!</h1>
+        </div>
+    </section>  
+
+
+    <section id="Jugadores">
+        <h2>Introduce el nombre de los 4 Jugadores</h2>
+        
+        <div class="container-jugadores">
+            
+
+            <div class="Jugador">
+            <img src="media/Jugador1.jpg">
+        </div>
+
+            <div class="Jugador"> 
+            <img src="media/jugador2.jpg">
+        </div>
+
+            <div class="Jugador">
+            <img src="media/jugador3.jpg">
+        </div>
+
+            <div class="Jugador"> 
+            <img src="media/jugador4.jpg">
+        </div>
+    </div>
+
+        <div class="NombreJugadores">
+            <form id="formulario">
+            <div class="contenedor-flex"> 
+              <label for="input-texto">Jugador 1:</label>
+              <br>
+              <input type="text" id="input-texto" name="texto">
+              <br>
+
+              <label for="input-texto">Jugador 2:</label>
+              <br>
+              <input type="text" id="input-texto" name="texto">
+              <br>
+              
+              <label for="input-texto">Jugador 3:</label>
+              <br>
+              <input type="text" id="input-texto" name="texto">
+              <br>
+
+              <label for="input-texto">Jugador 4:</label>
+              <br>
+              <input type="text" id="input-texto" name="texto">
+              <br>
+            </div> 
+            </form>
+            <div id="resultado"></div>
+             <script src="script.js"></script>
+        </div>
+    </section>
+
+
+    <section id="TamanoCarton">
+        <h3>¿De que tamaño quieres el cartón?</h3>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="media/carton3x3.jpg">
+                <div class="card-content">
+                    <h4>Cartón 3x3</h4>
+                    <button>Elegir</button>
+            </div>
+            </div>
+
+            <div class="card">
+                <img src="media/carton4x4.jpg">
+                <div class="card-content">
+                <h4>Cartón 4x4</h4>
+                <button>Elegir</button>
+            </div>
+            </div>
+
+            <div class="card">
+                <img src="media/carton5x5.jpg">
+
+            <div class="card-content">
+                <h4>Cartón 5x5</h4>
+                <button>Elegir</button>
+            </div>
+            </div>
+            </div>   
+    </section>
+          
+    <section id="StartGame">
+        <div class="container">
+            <h5>¡Iniciar juego!</h5>
+            <a href="game.html">
+                <button type="button">Iniciar</button>
+            </a>
+        </div>
+    </section>
+    
+
+</body>
+</html>
